@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="amarillo_oscuro">#FBC02D</color>
+    <color name="amarillo_claro">#FFF9C4</color>
+    <color name="amarillo">#FFEB3B</color>
+    <color name="café">#795548</color>
+    <color name="gris">#757575</color>
+    <color name="gris_claro">#BDBDBD</color>
+    <color name="rojo26">#E26969</color>
+    <color name="naranja_fuerte">#EB512F</color>
+    <color name="amaraillo1">#F0D56E</color>
+</resources>
