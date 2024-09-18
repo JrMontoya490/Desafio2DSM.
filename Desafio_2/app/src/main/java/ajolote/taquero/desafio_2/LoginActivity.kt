@@ -23,16 +23,12 @@ class LoginActivity : AppCompatActivity() {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
 
-            // Validation
             if (email.isNotEmpty() && password.isNotEmpty()) {
-                // Successful login, start MenuActivity
                 val intent = Intent(this, MenuActivity::class.java)
                 startActivity(intent)
 
-                // Show toast notification for successful login (optional)
                 Toast.makeText(this, "Inicio de sesión exitoso!", Toast.LENGTH_SHORT).show()
             } else {
-                // Show toast notification for empty fields
                 Toast.makeText(this, "Por favor, ingrese su email y contraseña", Toast.LENGTH_SHORT).show()
             }
         }
